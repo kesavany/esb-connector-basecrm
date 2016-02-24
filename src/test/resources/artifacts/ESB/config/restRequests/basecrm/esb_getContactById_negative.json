@@ -1,8 +1,8 @@
 {
-   "apiUrl":"%s(apiUrl)",
-   "email":"%s(email)",
-   "password":"%s(password)",
-   "responseType":"%s(responseType)",
-   "contactId":"Invalid",
-   "method":"getContactById"
+  "apiUrl": "%s(apiUrl)",
+  "email": "%s(email)",
+  "password": "%s(password)",
+  "responseType": "%s(responseType)",
+  "contactId": "Invalid",
+  "method": "getContactById"
 }

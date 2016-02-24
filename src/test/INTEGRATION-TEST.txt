@@ -52,7 +52,7 @@ Steps to follow in setting integration test.
       Create a BaseCRM account using the URL "https://getbase.com/pricing/".
       Note: This is a full featured 14-day free trial account.
 
- 7. Update the BaseCRM properties file at location "{BASECRM_CONNECTOR_HOME}/src/test/resources/artifacts/ESB/connector/config" as below.
+ 6. Update the BaseCRM properties file at location "{BASECRM_CONNECTOR_HOME}/src/test/resources/artifacts/ESB/connector/config" as below.
 
     i)   responseType   - Use "json" as the response type since the integration is implemented for JSON results even though the API support "json" and "xml" response types.
     ii)  apiUrl         - Use the sales API URL as "https://sales.futuresimple.com".
@@ -60,5 +60,5 @@ Steps to follow in setting integration test.
     iv)  email          - Use the BaseCRM account created email.
     v)   password       - Use the BaseCRM account password.
 
- 8. Navigate to "{ESB_Connector_Home}/" and run the following command.
+ 7. Navigate to "{ESB_Connector_Home}/" and run the following command.
        $ mvn clean install

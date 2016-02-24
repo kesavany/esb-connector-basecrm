@@ -1,9 +1,9 @@
 {
-	"email":"%s(email)",
-	"password":"%s(password)",
-	"apiUrl":"%s(apiUrl)",
-	"responseType":"%s(responseType)",
-	"dealId":"%s(dealIdMandatory)",
-	"noteContent":"%s(noteContent)",
-	"method":"createDealNote"
+  "email": "%s(email)",
+  "password": "%s(password)",
+  "apiUrl": "%s(apiUrl)",
+  "responseType": "%s(responseType)",
+  "dealId": "%s(dealIdMandatory)",
+  "noteContent": "%s(noteContent)",
+  "method": "createDealNote"
 }

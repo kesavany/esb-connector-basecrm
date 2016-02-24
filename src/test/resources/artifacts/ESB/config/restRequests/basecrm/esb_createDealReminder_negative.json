@@ -1,8 +1,8 @@
 {
-	"email":"%s(email)",
-	"password":"%s(password)",
-	"apiUrl":"%s(apiUrl)",
-	"responseType":"%s(responseType)",
-	"dealId":"INVALID",
-	"method":"createDealReminder"
+  "email": "%s(email)",
+  "password": "%s(password)",
+  "apiUrl": "%s(apiUrl)",
+  "responseType": "%s(responseType)",
+  "dealId": "INVALID",
+  "method": "createDealReminder"
 }

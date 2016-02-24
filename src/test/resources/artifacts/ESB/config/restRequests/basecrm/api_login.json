@@ -1,4 +1,4 @@
 {
-    "email" : "%s(email)",
-    "password" : "%s(password)"
+  "email": "%s(email)",
+  "password": "%s(password)"
 }
