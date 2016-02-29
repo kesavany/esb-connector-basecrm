@@ -17,9 +17,6 @@
 */
 package org.wso2.carbon.connector.integration.test.basecrm;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.Assert;
@@ -27,6 +24,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.wso2.connector.integration.test.base.ConnectorIntegrationTestBase;
 import org.wso2.connector.integration.test.base.RestResponse;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class BasecrmConnectorIntegrationTest extends ConnectorIntegrationTestBase {
 
@@ -46,7 +46,7 @@ public class BasecrmConnectorIntegrationTest extends ConnectorIntegrationTestBas
     @BeforeClass(alwaysRun = true)
     public void setEnvironment() throws Exception {
 
-        init("basecrm-connector-1.0.0");
+        init("basecrm-connector-1.0.1-SNAPSHOT");
 
         esbRequestHeadersMap.put("Accept-Charset", "UTF-8");
         esbRequestHeadersMap.put("Content-Type", "application/json");
