@@ -23,7 +23,7 @@
     <artifactId>org.wso2.carbon.connector.basecrm</artifactId>
     <packaging>jar</packaging>
     <version>1.0.1-SNAPSHOT</version>
-    <name>WSO2 Carbon - Mediation Library Connector For basecrm</name>
+    <name>WSO2 EI Connector for BaseCRM</name>
     <url>http://wso2.org</url>
     <properties>
         <connector.name>basecrm</connector.name>
